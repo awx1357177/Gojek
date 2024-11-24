@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(16, 24, 32);
+}
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  padding: 5px 10px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(16, 24, 32);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+a[href] {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
